@@ -1,0 +1,14 @@
+Package: clnshinydockercaddyhosting
+Title: Hosting a Shiny App in Production with Docker Compose and Caddy
+Version: 0.0.0.9000
+Authors@R:
+    person(given = "Ronald G.", family = "Thomas", email = "rgthomas@ucsd.edu", role = c("aut", "cre"))
+Description: Blog post workspace documenting a Docker Compose deployment
+    of a Shiny application behind a Caddy reverse proxy with automatic
+    HTTPS and Watchtower-driven redeploys.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.0
+Suggests:
+    tinytest (>= 1.4.0)
