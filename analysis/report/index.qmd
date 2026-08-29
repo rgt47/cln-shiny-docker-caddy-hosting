@@ -45,10 +45,10 @@ web server, obtaining an SSL certificate, and configuring a reverse
 proxy,' to a companion post. This is that post.
 
 The gap matters because the two halves fail in different ways. A
-misconfigured security group returns a connection timeout; a missing
-reverse proxy returns a working app that only its own operator can
-reach, over plain HTTP, with no certificate and no authentication. The
-server exists. Nothing points a browser at it correctly. Getting from
+misconfigured security group returns a connection timeout. A missing
+reverse proxy instead returns a working app that only its own operator
+can reach, over plain HTTP, with no certificate and no authentication.
+The server exists. Nothing points a browser at it correctly. Getting from
 'the app runs on port 3838' to 'the app is available at
 `https://example.org/`, encrypted, authenticated, and unattended' is
 its own set of decisions, not a footnote to provisioning.
@@ -492,7 +492,7 @@ at the cost of losing an explicit version history.
    immediately exits.** On Apple Silicon, forgetting `--platform
    linux/amd64` during the build produces an image that runs locally
    under emulation but may behave differently once deployed to an
-   amd64 server; always build for the target platform explicitly.
+   amd64 server. Always build for the target platform explicitly.
 
 
 # Uninstall / Rollback
