@@ -522,7 +522,7 @@ deployment.](media/images/ambiance3.jpg){.img-fluid height=3.5in}
 
 # What Did We Learn?
 
-## Lessons Learnt
+## Lessons Learned
 
 **Conceptual Understanding:**
 
