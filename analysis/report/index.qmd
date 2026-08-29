@@ -6,7 +6,7 @@ categories: [docker, shiny, caddy, deployment]
 description: "Turning a running EC2 instance into a secure, continuously updated home for a Shiny app, using Docker Compose to wire together the application container, a Caddy reverse proxy with automatic HTTPS, and Watchtower for zero-touch redeploys."
 image: "media/images/hero.jpg"
 document-type: "blog"
-draft: true
+draft: false
 execute:
   echo: true
   warning: false
