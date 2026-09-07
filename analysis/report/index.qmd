@@ -652,7 +652,7 @@ changed.
 | Last verified | 2026-08-28 |
 
 ::: {.callout-important}
-**Epistemic status.** The application build, the Caddyfile syntax, and
+**Status.** The application build, the Caddyfile syntax, and
 the `docker-compose.yml` structure in this post are adapted from a
 working deployment I ran previously against GitLab's container
 registry and a `rgtlab.org` domain. For this post the registry
