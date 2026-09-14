@@ -35,9 +35,9 @@ in front of whatever is actually running behind it.*
 
 # Introduction
 
-I did not really know what stood between a working Shiny app and a
-'Go to app' link a collaborator could actually click until I had both
-pieces separately and no path connecting them. [Provisioning AWS EC2
+Quite a lot stands between a working Shiny app and a 'Go to app' link
+a collaborator can actually click, which becomes apparent once you
+have both pieces separately and no path connecting them. [Provisioning AWS EC2
 Instances](../cln-aws-ec2-provisioning/) covers the first half: a
 running Ubuntu instance with a static IP, a firewall, and Docker
 installed. That post explicitly defers the second half, 'installing a
