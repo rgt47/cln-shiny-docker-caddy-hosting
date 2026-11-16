@@ -446,6 +446,8 @@ at the cost of losing an explicit version history.
 :::
 
 
+![A weathered wooden pier above calm water.](media/images/ambiance2.jpg){.img-fluid height=3.5in}
+
 # Daily Workflow
 
 | Task | Command |
